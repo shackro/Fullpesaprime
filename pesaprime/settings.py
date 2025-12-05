@@ -16,7 +16,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-x#1f)$*9tv2@vefb+-a
 
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['*','localhost', '127.0.0.1', 'pesaprime.vercel.app.com','192.168.0.104:8000']
+ALLOWED_HOSTS = ['*','localhost', '127.0.0.1', 'pesaprime.com.vercel.app','192.168.0.104:8000']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
